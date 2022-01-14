@@ -1,0 +1,19 @@
+/* ----------------------------footer----------------- */
+.footer {
+  background-color: rgb(25, 15, 36);
+  height: 15vh;
+  padding: 10px;
+}
+.footer_list {
+  padding-top: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: sans-serif;
+}
+.user_build {
+  margin-top: 10px;
+}

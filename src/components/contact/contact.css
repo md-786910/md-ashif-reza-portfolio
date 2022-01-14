@@ -1,0 +1,105 @@
+.contactPage {
+  padding: 40px;
+}
+.contactTitle {
+  text-align: center;
+}
+
+.contactForm {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.contactLeft {
+  /* border: 1px solid red; */
+  flex: 2;
+  padding: 10px;
+}
+
+.contactDesc {
+  margin-top: 20px;
+}
+.contactDesc p {
+  font-size: 17px;
+  font-weight: 500;
+}
+.spanContactTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.contactSign1 p {
+  font-weight: 500;
+  color: #231d3f;
+  margin-left: 35px;
+}
+.contactSign1 i {
+  position: relative;
+  top: 7px;
+  font-size: 20px;
+  color: #231d3f;
+}
+
+.contactRight {
+  padding: 10px;
+  /* border: 1px solid #231d3f; */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  flex: 2;
+}
+
+.name_email {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid #231d3f; */
+}
+
+.emailAndName {
+  margin: 5px;
+  /* border: 1px solid #231d3f; */
+  width: 50%;
+  padding: 3px;
+  border: 1px solid #231d3f;
+  outline: none;
+}
+
+#contactSubject1 {
+  padding: 3px;
+  margin: 5px;
+  border: 1px solid #231d3f;
+  outline: none;
+  width: calc(100% - 10px);
+}
+
+.contactTextArea textarea {
+  margin: 5px;
+  border: 1px solid #231d3f;
+  width: calc(100% - 10px);
+  height: 5em;
+  padding: 3px;
+  outline: none;
+}
+
+.btnMessage button {
+  margin: 5px;
+  padding: 5px 20px;
+  color: #231d3f;
+  outline: none;
+  font-size: 15px;
+  border: 1px solid #231d3f;
+  transition: all 0.5s ease-in-out;
+  background-color: white;
+  cursor: pointer;
+}
+.btnMessage button:hover {
+  background-color: #231d3f;
+  color: white;
+}
+
+.name_email,
+.contactSubject,
+.contactTextArea,
+.btnMessage {
+  margin-bottom: 20px;
+}

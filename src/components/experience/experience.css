@@ -1,0 +1,52 @@
+.experience {
+  margin-top: 2em;
+  padding: 40px;
+}
+.experienceTitle {
+  text-align: center;
+}
+.expBox {
+  margin-top: 1.5em;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.leftExp {
+  flex: 2;
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+.rightExp {
+  flex: 2;
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+
+.expDesc p {
+  font-weight: 500;
+  line-height: 1.6em;
+  font-size: 16px;
+  color: rgb(47, 44, 83);
+}
+.expBtn {
+  transform: translateY(30px);
+}
+
+.expBtn button {
+  cursor: pointer;
+  padding: 6px;
+  width: 25%;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  color: rgb(45, 37, 63);
+  border: 2px solid rgb(47, 44, 83);
+}
+
+.expBtn button:hover {
+  color: white;
+  background-color: rgb(45, 37, 63);
+}
+.expProgress {
+  margin-bottom: 3px;
+}

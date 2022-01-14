@@ -1,0 +1,59 @@
+.about {
+  position: relative;
+  top: -2em;
+  padding: 40px;
+}
+.aboutTitle h1 {
+  text-align: center;
+}
+
+.aboutContent {
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.aboutDesc {
+  font-weight: 500;
+  line-height: 1.4em;
+  flex: 4;
+}
+.descriptionAbout::first-letter {
+  font-size: 3em;
+  color: red;
+}
+
+.aboutImage {
+  flex: 1;
+}
+.aboutImage img {
+  width: 100%;
+  height: 40vh;
+}
+.aboutName {
+  color: rgb(48, 35, 70);
+}
+.aboutName h1 {
+  font-size: 30px;
+}
+.btnMore {
+  margin-top: 20px;
+}
+.btnMore button {
+  width: 20%;
+  font-size: 20px;
+  height: 6vh;
+  background-color: rgb(55, 35, 75);
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
